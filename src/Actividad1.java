@@ -7,7 +7,7 @@ public class Actividad1 {
         Asignatura a3 = new Asignatura(2);
         
         //Creacion de alumno y calculo de notas
-        Alumno alumno = new Alumno(a1, a2, a3);
+        Alumno alumno = new Alumno(a1, a2, a3, "Fran", 2000, "12345678a");
         Profesor.ponerNotas(alumno);
 
         //Mostramos la media
